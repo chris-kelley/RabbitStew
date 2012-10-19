@@ -1,0 +1,25 @@
+~rD
+There are exits to the east and south. 
+\n
+\n
+this is my second paragraph.
+\n
+\n
+this is my third paragraph (add paragraphs with same conventions if and as needed).
+rD~
+
+~rE
+0:0:0:105:0:107:0:0:0:0
+rE~
+
+~rSE
+rSE~
+
+~rH
+rH~
+
+~rI
+rI~
+
+~rNPC
+rNPC~

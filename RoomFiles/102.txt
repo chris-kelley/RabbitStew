@@ -1,0 +1,27 @@
+~rD
+There are exits to the north and south. 
+\n
+\n
+No white space
+\n
+\n
+No white space
+rD~
+
+~rE
+0:103:0:0:0:111:0:0:0:0
+rE~
+
+~rSE
+rSE~
+
+~rH
+rH~
+
+~rI
+
+rI~
+
+~rNPC
+
+rNPC~

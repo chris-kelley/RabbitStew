@@ -1,0 +1,25 @@
+~rD
+There is an exit north. 
+\n
+\n
+There is a rough natural stairway going down.
+\n
+\n
+this is my third paragraph (add paragraphs with same conventions if and as needed).
+rD~
+
+~rE
+0:112:0:0:0:0:0:0:0:201
+rE~
+
+~rSE
+rSE~
+
+~rH
+rH~
+
+~rI
+rI~
+
+~rNPC
+rNPC~

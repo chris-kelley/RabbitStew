@@ -1,0 +1,29 @@
+~rD
+There are exits northwest, northeast, east, southeast, southwest, and west. 
+\n
+\n
+On the north wall there is a trophy case. The trophy case contains 
+\n
+\n
+On the south wall there is a series of shelves for equipment storage. The shelves contain 
+rD~
+
+~rE
+105:0:104:102:110:0:109:106:0:0
+rE~
+
+~rSE
+0:0:0:0:0:0:0:0:0:0
+rSE~
+
+~rH
+This is a hint
+rH~
+
+~rI
+bag:bottle:knife
+rI~
+
+~rNPC
+
+rNPC~

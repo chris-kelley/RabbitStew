@@ -1,0 +1,27 @@
+~r
+Room name here
+r~
+
+~rD
+There are 6 exits in here; northeast, northwest, southeast, southwest, east and west
+\n
+On the north wall there is a trophy case. The trophy case contains
+\n
+On the south wall there is a series of shelves for equipment storage. The shelves contain
+rD~
+
+~e
+5:0:4:2:10:0:9:6:0:0
+e~
+
+~t
+treasure1:treasure2:treasure3
+t~
+
+~i
+item1:item2:item3
+i~
+
+~n
+npc1:npc2:npc3
+n~

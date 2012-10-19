@@ -1,0 +1,3 @@
+red boot:1
+sword:1
+blades of grass:15

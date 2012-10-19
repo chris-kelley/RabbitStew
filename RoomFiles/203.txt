@@ -1,0 +1,25 @@
+~rD
+There is an exit south. 
+\n
+\n
+There is a trap door above a ladder.
+\n
+\n
+this is my third paragraph (add paragraphs with same conventions if and as needed).
+rD~
+
+~rE
+0:0:0:0:0:229:0:0:113:0
+rE~
+
+~rSE
+rSE~
+
+~rH
+rH~
+
+~rI
+rI~
+
+~rNPC
+rNPC~
