@@ -8,9 +8,14 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Image;
 import java.awt.Insets;
+import javax.jws.soap.SOAPBinding.Style;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.*;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyleContext;
+import javax.swing.text.StyledDocument;
 
 /*
  * @author elfinkind
@@ -19,7 +24,7 @@ public class GUI extends JFrame {
     
     JPanel mainPanel, panel;
     JButton north, east, west, south, northEast, northWest, southEast, southWest;
-    JTextArea center;
+    //JTextArea center;
     
     String path;
     
@@ -53,9 +58,17 @@ public class GUI extends JFrame {
         southEast.setBackground(Color.blue);
         southEast.setBorder(null);
         
-        center = new JTextArea();
-        center.setSize(150, 150);
-        center.setBackground(Color.WHITE);
+        StyledDocument document = new DefaultStyledDocument();
+        javax.swing.text.Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
+        StyleConstants.setAlignment(defaultStyle, StyleConstants.ALIGN_CENTER);
+        JTextPane center = new JTextPane(document);
+        center.setText("Welcome to Rabbit Stew\nA text based adventure game.");
+        
+        //center = new JTextArea("Rabbit Stew \n A text based adventure game");
+        //center.setSize(150, 150);
+        center.setBackground(Color.BLUE);
+        center.setForeground(Color.WHITE);
+        center.setVisible(true);
         
         //Box textBox = new 
         
@@ -85,8 +98,8 @@ public class GUI extends JFrame {
         gbc.gridy = y;
         gbc.gridwidth = width;
         gbc.gridheight = height;
-        gbc.weightx = 200.0;
-        gbc.weighty = 200.0;
+        gbc.weightx = 300.0;
+        gbc.weighty = 300.0;
         gbc.insets = new Insets(5, 5, 5, 5);
         gbc.anchor = align;
         gbc.fill = GridBagConstraints.NONE;
