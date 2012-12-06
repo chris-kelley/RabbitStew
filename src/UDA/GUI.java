@@ -28,33 +28,34 @@ public class GUI extends JFrame {
         mainPanel = new JPanel();
         mainPanel.setBackground(Color.blue);
         
-        northWest = new JButton(new ImageIcon("Images/NorthWest.png"));
+        northWest = new JButton(new ImageIcon("Images/NorthWest1.png"));
         northWest.setBackground(Color.blue);
         northWest.setBorder(null);
-        north = new JButton(new ImageIcon("Images/North.png"));
+        north = new JButton(new ImageIcon("Images/North1.png"));
         north.setBackground(Color.blue);
         north.setBorder(null);
-        northEast = new JButton(new ImageIcon("Images/NorthEast.png"));
+        northEast = new JButton(new ImageIcon("Images/NorthEast1.png"));
         northEast.setBackground(Color.blue);
         northEast.setBorder(null);
         west = new JButton(new ImageIcon("Images/West.png"));
         west.setBackground(Color.blue);
         west.setBorder(null);
-        east = new JButton(new ImageIcon("Images/East.png"));
+        east = new JButton(new ImageIcon("Images/East1.png"));
         east.setBackground(Color.blue);
         east.setBorder(null);
-        southWest = new JButton(new ImageIcon("Images/SouthWest.png"));
+        southWest = new JButton(new ImageIcon("Images/SouthWest1.png"));
         southWest.setBackground(Color.blue);
         southWest.setBorder(null);
-        south = new JButton(new ImageIcon("Images/South.png"));
+        south = new JButton(new ImageIcon("Images/South1.png"));
         south.setBackground(Color.blue);
         south.setBorder(null);
-        southEast = new JButton(new ImageIcon("Images/SouthEast.png"));
+        southEast = new JButton(new ImageIcon("Images/SouthEast1.png"));
         southEast.setBackground(Color.blue);
         southEast.setBorder(null);
         
         center = new JTextArea();
         center.setSize(150, 150);
+        center.setBackground(Color.WHITE);
         
         //Box textBox = new 
         
